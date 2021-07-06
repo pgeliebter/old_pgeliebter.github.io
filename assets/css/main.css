@@ -74,7 +74,7 @@ input, select, textarea {
 
 /* Basic */
 .profile{
-	background-image: url("https://www.planetscubaindia.com/wp-content/uploads/2020/11/fit-india-scuba-diving.jpg");
+	background-image: url("../../images/scuba.jpg");
 	background-position: center;
 	display:inline-block;
 	border: solid white;
