@@ -7,3 +7,6 @@
 .no-dots-list li {
   list-style: none;
 }
+.custom-header {
+  color: #000;
+}

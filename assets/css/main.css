@@ -162,17 +162,16 @@ textarea {
 
 /* Basic */
 .profile {
-  background-image: url("../../images/scuba.jpg");
+  background-image: url("../../images/scuba_profile.jpg");
   background-position: center;
   display: inline-block;
-  border: solid white;
-  border-color: white;
+  border: solid black;
+  border-color: black;
   border-bottom: 0px;
   border-width: 2px;
-  border-radius: 500px;
-
-  width: 500px;
-  height: 500px;
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
   background-size: cover;
 }
 html {
@@ -3031,15 +3030,17 @@ button:disabled,
 
 #header {
   padding: 9em 0 9em 0;
-  background-color: #4686a0;
-  color: rgba(255, 255, 255, 0.75);
-  background-attachment: fixed, fixed, fixed;
-  background-image: url("images/overlay2.png"), url("images/overlay3.svg"),
-    linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-  background-position: top left, center center, center center;
-  background-size: auto, cover, cover;
-  overflow: hidden;
-  position: relative;
+  /* background-color: #4686a0; */
+  /* color: rgba(255, 255, 255, 0.75); */
+  /* background-attachment: fixed, fixed, fixed; */
+  background-image: url("../../images/fish.jpg");
+  background-position: bottom;
+  /* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), */
+  /* linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
+  /* background-position: top left, center center, center center; */
+  background-size: cover;
+  /* overflow: hidden;
+  position: relative; */
   text-align: center;
 }
 
@@ -3059,15 +3060,15 @@ button:disabled,
 #header h6,
 #header strong,
 #header b {
-  color: #ffffff;
+  color: #000;
 }
 
 #header header p {
-  color: #ffffff;
+  color: #000;
 }
 
 #header header.major:after {
-  background: #ffffff;
+  background: #000;
 }
 
 #header input[type="submit"],
@@ -3075,8 +3076,8 @@ button:disabled,
 #header input[type="button"],
 #header button,
 #header .button {
-  box-shadow: inset 0 0 0 1px #ffffff;
-  color: #ffffff !important;
+  box-shadow: inset 0 0 0 1px #000;
+  color: #000 !important;
 }
 
 #header input[type="submit"]:hover,
@@ -3100,9 +3101,9 @@ button:disabled,
 #header input[type="button"].primary,
 #header button.primary,
 #header .button.primary {
-  background-color: #ffffff;
-  box-shadow: inset 0 0 0 1px #ffffff !important;
-  color: #4686a0 !important;
+  background-color: #000;
+  box-shadow: inset 0 0 0 1px #000 !important;
+  color: #000 !important;
 }
 
 #header input[type="submit"].primary:hover,
@@ -3123,11 +3124,11 @@ button:disabled,
 }
 
 #header ul.major-icons li .icon {
-  border-color: #ffffff;
+  border-color: #000;
 }
 
 #header .icon.major {
-  color: #ffffff;
+  color: #000;
 }
 
 #header h1 {
@@ -3152,7 +3153,7 @@ button:disabled,
   padding-left: 0;
 }
 
-#header .actions:after {
+/* #header .actions:after {
   background: #ffffff;
   content: "";
   height: 100vh;
@@ -3160,7 +3161,7 @@ button:disabled,
   position: absolute;
   top: 100%;
   width: 1px;
-}
+} */
 
 #header .inner {
   -moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
